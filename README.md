@@ -27,4 +27,4 @@ In 2019, I began as a wordpress developer and then shifted to react developer, a
   ---
   [![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=Adarsh-kushwaha)](https://github.com/anuraghazra/github-readme-stats)
 ---
-  [![GitHub Streak](http://github-readme-streak-stats.herokuapp.com?user=Adarsh-kushwaha&theme=light&background=ffffff)](https://git.io/streak-stats)
+  [![GitHub Streak](https://github-readme-streak-stats.herokuapp.com?user=Adarsh-kushwaha&theme=light&background=ffffff)](https://git.io/streak-stats)
