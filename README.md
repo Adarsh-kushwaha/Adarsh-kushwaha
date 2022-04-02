@@ -1,4 +1,4 @@
-### Hi there <img src="https://raw.githubusercontent.com/MartinHeinz/MartinHeinz/master/wave.gif" width="30px">, Myself Adarsh Kushwaha
+### Hi there <img src="https://raw.githubusercontent.com/MartinHeinz/MartinHeinz/master/wave.gif" width="30px"> Myself Adarsh Kushwaha
 <hr/>
 
 ![Twitter Follow](https://img.shields.io/twitter/follow/heyadarshhere?style=social)   ![YouTube Channel Subscribers](https://img.shields.io/youtube/channel/subscribers/UCIqt1nyXWFZar6V29yVHLQg?style=social)   ![GitHub followers](https://img.shields.io/github/followers/Adarsh-kushwaha?style=social)
