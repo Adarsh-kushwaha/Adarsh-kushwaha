@@ -5,7 +5,7 @@
 <br>
 <p>
 I'm a teacher and developer who enjoys coding, especially when it comes to creating awesome websites. Nothing satisfies me more than creating new things and working on unique ideas. Creating things from the ground up and sweating it out until it is ready for production is my core strength.
-In 2019, I began as a wordpress developer and then shifted to react developer, and I spent more than six months working on react and node.
+In 2019, I began as a wordpress developer and then shifted to react developer, now I am learning Blockchain Development.
 </p>
 
 <h2>🧰 Tech Stack</h2>
