@@ -10,7 +10,7 @@ Teacher and Frontend Engineer** who loves coding—especially crafting awesome, 
 
 Nothing satisfies me more than creating new things and working on unique ideas. Building from the ground up and sweating the details until it's production-ready is my core strength.
 
-Started in 2019 as a WordPress developer, shifted to React/Next.js mastery, and now diving into Blockchain Development.
+Started in 2019 as a WordPress developer, shifted to React/Next.js mastery, and now diving into GEN AI .
 
 I've built scalable monorepos, dynamic form engines, micro-frontends with Module Federation, and AI-powered Chrome extensions—slashing manual efforts by 90%, boosting bookings by 30%+, and optimizing loads by 75%.
 
