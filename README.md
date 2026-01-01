@@ -14,10 +14,9 @@ Started in 2019 as a WordPress developer, shifted to React/Next.js mastery, and 
 
 I've built scalable monorepos, dynamic form engines, micro-frontends with Module Federation, and AI-powered Chrome extensions—slashing manual efforts by 90%, boosting bookings by 30%+, and optimizing loads by 75%.
 
-🔭 Exploring micro-frontends, performance, Generative AI
-🌱 Always learning, teaching, and sharing code  
+Exploring micro-frontends, performance, Generative AI, Always learning, teaching, and sharing code .
 
-Dive into my repos for React, Next.js, full-stack projects, and emerging blockchain experiments!
+Dive into my repos for React, Next.js, full-stack projects, and emerging GEN AI experiments!
 </p>
 
 <h2>🧰 Tech Stack</h2>
