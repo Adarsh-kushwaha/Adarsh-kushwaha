@@ -31,11 +31,3 @@ Dive into my repos for React, Next.js, full-stack projects, and emerging GEN AI 
  <div/>
  <hr/>
   
-  ## &#x1f4c8; My GitHub Stats
-  
- ![GitHub stats](https://github-readme-stats.vercel.app/api?username=Adarsh-kushwaha&hide=contribs&show_icons=true,prs)
-  <br/>
-  ---
-  [![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=Adarsh-kushwaha)](https://github.com/anuraghazra/github-readme-stats)
----
-  [![GitHub Streak](https://github-readme-streak-stats.herokuapp.com?user=Adarsh-kushwaha&theme=light&background=ffffff)](https://git.io/streak-stats)
