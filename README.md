@@ -4,8 +4,20 @@
 ![Twitter Follow](https://img.shields.io/twitter/follow/heyadarshhere?style=social)   ![YouTube Channel Subscribers](https://img.shields.io/youtube/channel/subscribers/UCIqt1nyXWFZar6V29yVHLQg?style=social)   ![GitHub followers](https://img.shields.io/github/followers/Adarsh-kushwaha?style=social)
 <br>
 <p>
-I'm a teacher and developer who enjoys coding, especially when it comes to creating awesome websites. Nothing satisfies me more than creating new things and working on unique ideas. Creating things from the ground up and sweating it out until it is ready for production is my core strength.
-In 2019, I began as a wordpress developer and then shifted to react developer, now I am learning Blockchain Development.
+Hi, I'm Adarsh Kushwaha 👋
+
+Teacher and Frontend Engineer** who loves coding—especially crafting awesome, performant websites that deliver experiences so smooth they make your Wi-Fi feel faster.
+
+Nothing satisfies me more than creating new things and working on unique ideas. Building from the ground up and sweating the details until it's production-ready is my core strength.
+
+Started in 2019 as a WordPress developer, shifted to React/Next.js mastery, and now diving into Blockchain Development.
+
+I've built scalable monorepos, dynamic form engines, micro-frontends with Module Federation, and AI-powered Chrome extensions—slashing manual efforts by 90%, boosting bookings by 30%+, and optimizing loads by 75%.
+
+🔭 Exploring micro-frontends, performance, Generative AI
+🌱 Always learning, teaching, and sharing code  
+
+Dive into my repos for React, Next.js, full-stack projects, and emerging blockchain experiments!
 </p>
 
 <h2>🧰 Tech Stack</h2>
