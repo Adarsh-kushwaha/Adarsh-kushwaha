@@ -9,7 +9,7 @@
 [![Twitter](https://img.shields.io/badge/Twitter-1DA1F2?style=flat-square&logo=twitter&logoColor=white)](https://twitter.com/YOUR_TWITTER)
 [![Portfolio](https://img.shields.io/badge/Portfolio-000000?style=flat-square&logo=firefox&logoColor=white)](https://YOUR_WEBSITE.com)
 [![Gmail](https://img.shields.io/badge/Gmail-D14836?style=flat-square&logo=gmail&logoColor=white)](mailto:YOUR_EMAIL@gmail.com)
-[![Profile Views](https://komarev.com/ghpvc/?username=Adarsh-kushwaha&color=36BCF7&style=flat-square&label=Views)](https://github.com/Adarsh-kushwaha)
+[![Profile Views](https://komarev.com/ghpvc/?username=Adarsh-kushwaha&color=36BCF7&style=flat-square&label=Views)](https://adarshkushwaha.me/)
 
 </div>
 
