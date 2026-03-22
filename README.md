@@ -67,8 +67,9 @@ Full Stack Developer building scalable web applications with **React**, **Next.j
 <br/>
 
 <div align="center">
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=Adarsh-kushwaha&theme=tokyonight&hide_border=true" alt="GitHub Streak" height="150"/>
-  &nbsp;
+  <a href="https://www.linkedin.com/in/adarshkushwaha/">
+    <img src="https://streak-stats.demolab.com?user=Adarsh-kushwaha&theme=dark&hide_border=true&border_radius=0&mode=weekly"alt="GitHub Streak">
+  </a>
 </div>
 
 <br/>
