@@ -9,7 +9,7 @@
 </p>
 
 <p align="center">
-  <img src="https://komarev.com/ghpvc/?username=Adarsh-kushwaha&style=for-the-badge&color=7c3aed&label=PROFILE+VIEWS" alt="Profile views" />
+  <img src="https://api.visitorbadge.io/api/visitors?path=Adarsh-kushwaha&label=PROFILE%20VIEWS&countColor=%237c3aed&style=for-the-badge&labelColor=%231a1b27" alt="Profile views" />
   <a href="https://github.com/Adarsh-kushwaha?tab=followers"><img src="https://img.shields.io/github/followers/Adarsh-kushwaha?label=Followers&style=for-the-badge&logo=github&color=22d3ee&labelColor=1a1b27" alt="GitHub followers" /></a>
   <a href="https://www.linkedin.com/in/adarshkushwaha/"><img src="https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&labelColor=1a1b27" alt="LinkedIn" /></a>
   <a href="https://adarshkushwaha.me/"><img src="https://img.shields.io/badge/Portfolio-adarshkushwaha.me-f472b6?style=for-the-badge&logo=googlechrome&logoColor=white&labelColor=1a1b27" alt="Portfolio" /></a>
