@@ -1,64 +1,189 @@
-# Hi, I'm Adarsh 👋
+<p align="center">
+  <img src="./assets/banner.svg" alt="Adarsh Kushwaha, Frontend Engineer (SDE II): React, Next.js, TypeScript, microfrontends, web performance" width="100%" />
+</p>
 
-**Frontend Engineer (SDE II) at Bajaj Finserv Health, Pune.** I build large-scale React and Next.js applications for enterprise B2B SaaS, with a focus on scalable UI architecture, microfrontends and web performance.
+<p align="center">
+  <a href="https://github.com/Adarsh-kushwaha">
+    <img src="https://readme-typing-svg.demolab.com/?font=Fira+Code&weight=600&size=24&duration=3000&pause=900&color=22D3EE&center=true&vCenter=true&width=560&lines=Frontend+Engineer;React.js+Developer;Next.js+Developer;UI+Performance+Engineer" alt="Frontend Engineer · React.js Developer · Next.js Developer · UI Performance Engineer" />
+  </a>
+</p>
 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=flat-square&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/adarshkushwaha/)
-[![Portfolio](https://img.shields.io/badge/Portfolio-adarshkushwaha.me-111?style=flat-square)](https://adarshkushwaha.me/)
-[![Email](https://img.shields.io/badge/Email-adarshkushwaha296%40gmail.com-D14836?style=flat-square&logo=gmail&logoColor=white)](mailto:adarshkushwaha296@gmail.com)
-[![X](https://img.shields.io/badge/@heyadarshhere-000?style=flat-square&logo=x&logoColor=white)](https://x.com/heyadarshhere)
+<p align="center">
+  <img src="https://komarev.com/ghpvc/?username=Adarsh-kushwaha&style=for-the-badge&color=7c3aed&label=PROFILE+VIEWS" alt="Profile views" />
+  <a href="https://github.com/Adarsh-kushwaha?tab=followers"><img src="https://img.shields.io/github/followers/Adarsh-kushwaha?label=Followers&style=for-the-badge&logo=github&color=22d3ee&labelColor=1a1b27" alt="GitHub followers" /></a>
+  <a href="https://www.linkedin.com/in/adarshkushwaha/"><img src="https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&labelColor=1a1b27" alt="LinkedIn" /></a>
+  <a href="https://adarshkushwaha.me/"><img src="https://img.shields.io/badge/Portfolio-adarshkushwaha.me-f472b6?style=for-the-badge&logo=googlechrome&logoColor=white&labelColor=1a1b27" alt="Portfolio" /></a>
+</p>
 
----
+<img src="./assets/divider.svg" width="100%" alt="" />
 
-### At work
+## 👨‍💻 About Me
 
-Nearly 4 years building production frontends for health and insurance B2B platforms used by enterprise clients:
+I'm a **Frontend Engineer (SDE II) at Bajaj Finserv Health** in Pune, with **3.8 years** of building production React and Next.js applications for enterprise B2B health and insurance platforms. I care about UI architecture that scales across teams, interfaces that stay fast, and code that's easy to change.
 
-- **Claims and booking platforms** handling **11,000+ claim submissions a day**, built with complex schema-driven forms and resilient async flows
-- **Microfrontend architecture** with Module Federation: independently deployed apps, shared dependencies, and a reusable component system across products
-- **Performance work** that took Lighthouse scores **from ~60 to 95** using SSR/SSG, code splitting, lazy loading and bundle optimization
-- **AI voice-agent tooling:** campaign management and analytics UIs for voicebot workflows processing **125K+ calls a month**, and currently a PaaS platform for AI agents
-- **Canvas-based image editing tools** for in-product workflows
+- 🏗️ **Microfrontends at scale:** Module Federation, shared dependencies, and reusable component systems across products
+- 📈 **Production impact:** frontends handling **11,000+ claim submissions a day**, and Lighthouse scores raised **from ~60 to 95**
+- 🤖 **AI voice agents:** campaign and analytics UIs for voicebot workflows processing **125K+ calls a month**
+- 🎨 **Canvas-based image editing tools** for in-product workflows
 
-*Work code is proprietary. The projects below are personal ones you can read in full.*
+<sub>Work code is proprietary. The projects below are personal ones you can read in full.</sub>
 
----
+## 🎯 Current Focus
 
-### Featured projects
+- 🚀 Building a **PaaS platform for AI agents** at work
+- ⚡ Performance engineering: Core Web Vitals, bundle budgets, and SSR/SSG trade-offs
+- 🧩 Scalable frontend architecture with microfrontends and Module Federation
 
-#### [Baaza](https://github.com/Adarsh-kushwaha/baaza) · [live demo](https://baaza.vercel.app)
-An installable, Spotify-style PWA that brings 100+ independent Indian playlist and radio sites into one app.
-- **Problem:** browsers hide refused iframes, so "will this site embed?" can't be detected on the client. A server route reads each site's CSP `frame-ancestors` / `X-Frame-Options` with a spec-aware, unit-tested parser and falls back to a new tab.
-- **State without a library:** a typed `localStorage` store read through `useSyncExternalStore`. It's SSR-safe and syncs across tabs.
-- **Platform:** Server Components feed, hand-written service worker for offline use, and Capacitor shells for background audio on iOS and Android.
-- `Next.js 16` `React 19` `TypeScript (strict)` `Tailwind v4` `Vitest`
+<img src="./assets/divider.svg" width="100%" alt="" />
 
-#### [Revigion](https://github.com/Adarsh-kushwaha/revigion)
-A spaced-repetition revision tracker that schedules 5 revisions per question and sends push reminders in the user's timezone.
-- **Correct dates:** scheduling is done in calendar space in the user's IANA timezone, so DST and UTC day boundaries can't drift.
-- **Testable dispatch:** the notification dispatcher is runtime-agnostic. The same code is unit-tested in Vitest and runs in a Deno Edge Function, with idempotent per-slot sends.
-- **Responsive UI:** optimistic create/rename/delete with rollback, plus a per-user stale-while-revalidate client cache.
-- `Next.js 16` `React 19` `TypeScript` `Supabase (Postgres + RLS + pg_cron)` `FCM` `Vitest`
+## 🛠️ Tech Stack
 
----
+<table>
+  <tr>
+    <td align="center" width="130"><b>Frontend</b></td>
+    <td>
+      <img src="https://skillicons.dev/icons?i=react,nextjs,js,ts,html,css,tailwind&theme=dark" alt="React, Next.js, JavaScript, TypeScript, HTML5, CSS3, Tailwind CSS" />
+    </td>
+  </tr>
+  <tr>
+    <td align="center"><b>State<br/>Management</b></td>
+    <td>
+      <img src="https://skillicons.dev/icons?i=redux&theme=dark" alt="Redux" />
+      <img src="https://img.shields.io/badge/Zustand-443E38?style=for-the-badge" alt="Zustand" />
+      <img src="https://img.shields.io/badge/TanStack_Query-FF4154?style=for-the-badge&logo=reactquery&logoColor=white" alt="TanStack Query" />
+    </td>
+  </tr>
+  <tr>
+    <td align="center"><b>UI Libraries</b></td>
+    <td>
+      <img src="https://skillicons.dev/icons?i=materialui&theme=dark" alt="Material UI" />
+      <img src="https://img.shields.io/badge/shadcn%2Fui-000000?style=for-the-badge&logo=shadcnui&logoColor=white" alt="shadcn/ui" />
+      <img src="https://img.shields.io/badge/React_Hook_Form-EC5990?style=for-the-badge&logo=reacthookform&logoColor=white" alt="React Hook Form" />
+    </td>
+  </tr>
+  <tr>
+    <td align="center"><b>Backend &amp; APIs</b></td>
+    <td>
+      <img src="https://skillicons.dev/icons?i=nodejs,express,graphql&theme=dark" alt="Node.js, Express.js, GraphQL" />
+      <img src="https://img.shields.io/badge/REST_APIs-0EA5E9?style=for-the-badge" alt="REST APIs" />
+    </td>
+  </tr>
+  <tr>
+    <td align="center"><b>Architecture</b></td>
+    <td>
+      <img src="https://img.shields.io/badge/Microfrontends-7C3AED?style=for-the-badge" alt="Microfrontends" />
+      <img src="https://img.shields.io/badge/Module_Federation-8DD6F9?style=for-the-badge&logo=webpack&logoColor=black" alt="Module Federation" />
+    </td>
+  </tr>
+  <tr>
+    <td align="center"><b>Testing</b></td>
+    <td>
+      <img src="https://skillicons.dev/icons?i=jest&theme=dark" alt="Jest" />
+      <img src="https://img.shields.io/badge/Playwright-2EAD33?style=for-the-badge" alt="Playwright" />
+    </td>
+  </tr>
+  <tr>
+    <td align="center"><b>Tools</b></td>
+    <td>
+      <img src="https://skillicons.dev/icons?i=vite,webpack,git,github,docker&theme=dark" alt="Vite, Webpack, Git, GitHub, Docker" />
+    </td>
+  </tr>
+</table>
 
-### Tech I work with
+## 📊 Developer Rating
 
-| Area | Tools |
-| --- | --- |
-| **Core** | React, Next.js (App Router, RSC, SSR/SSG), TypeScript, JavaScript, HTML, CSS |
-| **Architecture** | Microfrontends (Module Federation), monorepos, reusable component systems, design systems |
-| **State and data** | Zustand, Redux, TanStack Query, REST, GraphQL, optimistic updates |
-| **UI** | Tailwind CSS, shadcn/ui, Material UI, React Hook Form, responsive and accessible UI |
-| **Performance** | Core Web Vitals, Lighthouse, code splitting, lazy loading, bundle analysis |
-| **Quality and tooling** | Jest, Vitest, ESLint, Vite, Webpack, Git, CI/CD |
-| **Also** | Node.js, Express, Kafka integrations, LangChain / LangGraph |
+<p align="center">
+  <img src="./assets/ratings.svg" alt="Developer rating: self-assessed skill scores out of 10 (not independently verified)" width="720" />
+</p>
+<p align="center"><sub><i>These are my own self-assessment scores, not official or independently verified ratings.</i></sub></p>
 
----
+<img src="./assets/divider.svg" width="100%" alt="" />
 
-### How I build
+## 🚀 Featured Projects
 
-- **Components:** small, composable, typed at the boundary. Own state where it's used and keep server state in a cache, not in global stores.
-- **Performance is a feature:** measure first (Lighthouse, bundle analysis), ship less JavaScript, and render on the server when it helps.
-- **Accessible by default:** semantic HTML, keyboard paths and visible focus before visual polish.
-- **Design for failure:** every async view has loading, empty, error and retry states.
-- **Test what's easy to get wrong:** date math, state machines and critical user flows.
+<table>
+  <tr>
+    <td valign="top" width="50%">
+      <h3>🎧 <a href="https://github.com/Adarsh-kushwaha/baaza">Baaza</a></h3>
+      <p>An installable, Spotify-style PWA that brings 100+ independent Indian playlist and internet-radio sites into one app.</p>
+      <ul>
+        <li>Server-side CSP <code>frame-ancestors</code> / <code>X-Frame-Options</code> check with a unit-tested parser</li>
+        <li>Library-free state: a typed <code>localStorage</code> store via <code>useSyncExternalStore</code>, synced across tabs</li>
+        <li>Offline service worker and Capacitor shells for background audio</li>
+      </ul>
+      <p>
+        <img src="https://img.shields.io/badge/Next.js_16-000?style=flat-square&logo=nextdotjs&logoColor=white" alt="Next.js 16" />
+        <img src="https://img.shields.io/badge/React_19-20232A?style=flat-square&logo=react&logoColor=61DAFB" alt="React 19" />
+        <img src="https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white" alt="TypeScript" />
+        <img src="https://img.shields.io/badge/PWA-5A0FC8?style=flat-square&logo=pwa&logoColor=white" alt="PWA" />
+      </p>
+      <p>
+        <a href="https://baaza.vercel.app"><b>🌐 Live demo</b></a> ·
+        <a href="https://github.com/Adarsh-kushwaha/baaza"><b>📂 Code</b></a>
+      </p>
+    </td>
+    <td valign="top" width="50%">
+      <h3>🧠 <a href="https://github.com/Adarsh-kushwaha/revigion">Revigion</a></h3>
+      <p>A spaced-repetition revision tracker that schedules 5 revisions per question and sends push reminders in your timezone.</p>
+      <ul>
+        <li>Timezone-correct scheduling done in calendar space, so it's safe across DST and UTC day boundaries</li>
+        <li>Runtime-agnostic dispatcher: unit-tested in Vitest, run in a Deno Edge Function</li>
+        <li>Optimistic UI with rollback and a stale-while-revalidate client cache</li>
+      </ul>
+      <p>
+        <img src="https://img.shields.io/badge/Next.js_16-000?style=flat-square&logo=nextdotjs&logoColor=white" alt="Next.js 16" />
+        <img src="https://img.shields.io/badge/Supabase-3FCF8E?style=flat-square&logo=supabase&logoColor=white" alt="Supabase" />
+        <img src="https://img.shields.io/badge/Firebase_FCM-DD2C00?style=flat-square&logo=firebase&logoColor=white" alt="Firebase Cloud Messaging" />
+        <img src="https://img.shields.io/badge/Vitest-6E9F18?style=flat-square&logo=vitest&logoColor=white" alt="Vitest" />
+      </p>
+      <p>
+        <a href="https://github.com/Adarsh-kushwaha/revigion"><b>📂 Code</b></a>
+        <!-- Add a live demo link here once deployed: · <a href="https://..."><b>🌐 Live demo</b></a> -->
+      </p>
+    </td>
+  </tr>
+</table>
+
+<!--
+  ➕ Add your next project by copying a <td> block above. Only add links that exist.
+-->
+
+<img src="./assets/divider.svg" width="100%" alt="" />
+
+## 📈 GitHub Analytics
+
+<p align="center">
+  <img src="https://github-readme-stats.vercel.app/api?username=Adarsh-kushwaha&show_icons=true&theme=tokyonight&hide_border=true&border_radius=12&hide_rank=true" alt="Adarsh's GitHub stats" width="49%" />
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Adarsh-kushwaha&layout=compact&theme=tokyonight&hide_border=true&border_radius=12&langs_count=8" alt="Most used languages" width="41%" />
+</p>
+
+<p align="center">
+  <img src="https://streak-stats.demolab.com/?user=Adarsh-kushwaha&theme=tokyonight&hide_border=true&border_radius=12" alt="GitHub contribution streak" width="90%" />
+</p>
+
+### 🐍 Contribution Activity
+
+<p align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Adarsh-kushwaha/Adarsh-kushwaha/output/github-snake-dark.svg" />
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Adarsh-kushwaha/Adarsh-kushwaha/output/github-snake.svg" />
+    <img alt="Snake animation eating my GitHub contribution graph" src="https://raw.githubusercontent.com/Adarsh-kushwaha/Adarsh-kushwaha/output/github-snake.svg" width="100%" />
+  </picture>
+</p>
+
+<p align="center"><sub>The snake is regenerated daily by a GitHub Action from my real contribution graph. If any card above fails to load, the full contribution calendar is just below this README.</sub></p>
+
+<img src="./assets/divider.svg" width="100%" alt="" />
+
+## 🤝 Connect With Me
+
+<p align="center">
+  <a href="https://www.linkedin.com/in/adarshkushwaha/" title="LinkedIn"><img src="https://skillicons.dev/icons?i=linkedin" alt="LinkedIn" height="44" /></a>&nbsp;
+  <a href="https://x.com/heyadarshhere" title="X / Twitter"><img src="https://skillicons.dev/icons?i=twitter" alt="X (Twitter)" height="44" /></a>&nbsp;
+  <a href="mailto:adarshkushwaha296@gmail.com" title="Email"><img src="https://skillicons.dev/icons?i=gmail" alt="Email" height="44" /></a>&nbsp;
+  <a href="https://adarshkushwaha.me/" title="Portfolio"><img src="https://img.shields.io/badge/-adarshkushwaha.me-1a1b27?style=for-the-badge&logo=googlechrome&logoColor=22d3ee" alt="Portfolio" height="44" /></a>
+</p>
+
+<p align="center">
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:22d3ee,50:a78bfa,100:f472b6&height=110&section=footer" alt="" width="100%" />
+</p>
