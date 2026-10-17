@@ -1,79 +1,64 @@
-<div align="center">
+# Hi, I'm Adarsh 👋
 
-# Adarsh Kushwaha
+**Frontend Engineer (SDE II) at Bajaj Finserv Health, Pune.** I build large-scale React and Next.js applications for enterprise B2B SaaS, with a focus on scalable UI architecture, microfrontends and web performance.
 
-<img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=18&duration=4000&pause=1000&color=36BCF7&center=true&vCenter=true&width=500&lines=Full+Stack+Developer;React+%7C+Next.js+Engineer;Node.js+%7C+Event-Driven+Systems;Building+Scalable+Web+Applications" alt="Typing SVG" />
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=flat-square&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/adarshkushwaha/)
+[![Portfolio](https://img.shields.io/badge/Portfolio-adarshkushwaha.me-111?style=flat-square)](https://adarshkushwaha.me/)
+[![Email](https://img.shields.io/badge/Email-adarshkushwaha296%40gmail.com-D14836?style=flat-square&logo=gmail&logoColor=white)](mailto:adarshkushwaha296@gmail.com)
+[![X](https://img.shields.io/badge/@heyadarshhere-000?style=flat-square&logo=x&logoColor=white)](https://x.com/heyadarshhere)
 
+---
 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=flat-square&logo=linkedin&logoColor=white)](https://linkedin.com/in/YOUR_LINKEDIN)
-[![Twitter](https://img.shields.io/badge/Twitter-1DA1F2?style=flat-square&logo=twitter&logoColor=white)](https://twitter.com/YOUR_TWITTER)
-[![Portfolio](https://img.shields.io/badge/Portfolio-000000?style=flat-square&logo=firefox&logoColor=white)](https://YOUR_WEBSITE.com)
-[![Gmail](https://img.shields.io/badge/Gmail-D14836?style=flat-square&logo=gmail&logoColor=white)](mailto:YOUR_EMAIL@gmail.com)
-[![Profile Views](https://komarev.com/ghpvc/?username=Adarsh-kushwaha&color=36BCF7&style=flat-square&label=Views)](https://adarshkushwaha.me/)
+### At work
 
-</div>
+Nearly 4 years building production frontends for health and insurance B2B platforms used by enterprise clients:
 
-<br/>
+- **Claims and booking platforms** handling **11,000+ claim submissions a day**, built with complex schema-driven forms and resilient async flows
+- **Microfrontend architecture** with Module Federation: independently deployed apps, shared dependencies, and a reusable component system across products
+- **Performance work** that took Lighthouse scores **from ~60 to 95** using SSR/SSG, code splitting, lazy loading and bundle optimization
+- **AI voice-agent tooling:** campaign management and analytics UIs for voicebot workflows processing **125K+ calls a month**, and currently a PaaS platform for AI agents
+- **Canvas-based image editing tools** for in-product workflows
 
-## About
+*Work code is proprietary. The projects below are personal ones you can read in full.*
 
-Full Stack Developer building scalable web applications with **React**, **Next.js**, and **Node.js**.
+---
 
-- 🏗 Building a **PaaS Platform** for AI agents.
-- ⚡ Experienced with **event-driven architecture**, Kafka & queues
-- 🎨 Created **Canvas-based image editor** tools
-- 🧠 Passionate about **system design** and clean architecture
+### Featured projects
 
-<br/>
+#### [Baaza](https://github.com/Adarsh-kushwaha/baaza) · [live demo](https://baaza.vercel.app)
+An installable, Spotify-style PWA that brings 100+ independent Indian playlist and radio sites into one app.
+- **Problem:** browsers hide refused iframes, so "will this site embed?" can't be detected on the client. A server route reads each site's CSP `frame-ancestors` / `X-Frame-Options` with a spec-aware, unit-tested parser and falls back to a new tab.
+- **State without a library:** a typed `localStorage` store read through `useSyncExternalStore`. It's SSR-safe and syncs across tabs.
+- **Platform:** Server Components feed, hand-written service worker for offline use, and Capacitor shells for background audio on iOS and Android.
+- `Next.js 16` `React 19` `TypeScript (strict)` `Tailwind v4` `Vitest`
 
-## Tech Stack
+#### [Revigion](https://github.com/Adarsh-kushwaha/revigion)
+A spaced-repetition revision tracker that schedules 5 revisions per question and sends push reminders in the user's timezone.
+- **Correct dates:** scheduling is done in calendar space in the user's IANA timezone, so DST and UTC day boundaries can't drift.
+- **Testable dispatch:** the notification dispatcher is runtime-agnostic. The same code is unit-tested in Vitest and runs in a Deno Edge Function, with idempotent per-slot sends.
+- **Responsive UI:** optimistic create/rename/delete with rollback, plus a per-user stale-while-revalidate client cache.
+- `Next.js 16` `React 19` `TypeScript` `Supabase (Postgres + RLS + pg_cron)` `FCM` `Vitest`
 
-**Frontend**
-&nbsp;
-![React](https://img.shields.io/badge/React-20232A?style=flat-square&logo=react&logoColor=61DAFB)
-![Next.js](https://img.shields.io/badge/Next.js-000?style=flat-square&logo=nextdotjs&logoColor=white)
-![TypeScript](https://img.shields.io/badge/TypeScript-007ACC?style=flat-square&logo=typescript&logoColor=white)
-![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black)
-![Tailwind](https://img.shields.io/badge/Tailwind-38B2AC?style=flat-square&logo=tailwind-css&logoColor=white)
-![MUI](https://img.shields.io/badge/MUI-0081CB?style=flat-square&logo=mui&logoColor=white)
+---
 
-**Backend**
-&nbsp;&nbsp;&nbsp;
-![Node.js](https://img.shields.io/badge/Node.js-339933?style=flat-square&logo=nodedotjs&logoColor=white)
-![Express](https://img.shields.io/badge/Express-000?style=flat-square&logo=express&logoColor=white)
-![Kafka](https://img.shields.io/badge/Kafka-231F20?style=flat-square&logo=apachekafka&logoColor=white)
+### Tech I work with
 
-**Database**
-&nbsp;
-![PostgreSQL](https://img.shields.io/badge/PostgreSQL-316192?style=flat-square&logo=postgresql&logoColor=white)
-![MySQL](https://img.shields.io/badge/MySQL-005C84?style=flat-square&logo=mysql&logoColor=white)
-![Redis](https://img.shields.io/badge/Redis-DC382D?style=flat-square&logo=redis&logoColor=white)
+| Area | Tools |
+| --- | --- |
+| **Core** | React, Next.js (App Router, RSC, SSR/SSG), TypeScript, JavaScript, HTML, CSS |
+| **Architecture** | Microfrontends (Module Federation), monorepos, reusable component systems, design systems |
+| **State and data** | Zustand, Redux, TanStack Query, REST, GraphQL, optimistic updates |
+| **UI** | Tailwind CSS, shadcn/ui, Material UI, React Hook Form, responsive and accessible UI |
+| **Performance** | Core Web Vitals, Lighthouse, code splitting, lazy loading, bundle analysis |
+| **Quality and tooling** | Jest, Vitest, ESLint, Vite, Webpack, Git, CI/CD |
+| **Also** | Node.js, Express, Kafka integrations, LangChain / LangGraph |
 
-**Tools**
-&nbsp;&nbsp;&nbsp;&nbsp;
-![Git](https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white)
-![Docker](https://img.shields.io/badge/Docker-2CA5E0?style=flat-square&logo=docker&logoColor=white)
-![Postman](https://img.shields.io/badge/Postman-FF6C37?style=flat-square&logo=postman&logoColor=white)
-![VSCode](https://img.shields.io/badge/VSCode-0078D4?style=flat-square&logo=visualstudiocode&logoColor=white)
+---
 
-<br/>
+### How I build
 
-## Activity
-
-<div align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=Adarsh-kushwaha&theme=tokyo-night&hide_border=true&area=true&radius=6" alt="Contribution Graph"/>
-</div>
-
-<br/>
-
-<div align="center">
-  <a href="https://www.linkedin.com/in/adarshkushwaha/">
-    <img src="https://streak-stats.demolab.com?user=Adarsh-kushwaha&theme=dark&hide_border=true&border_radius=0&mode=weekly"alt="GitHub Streak">
-  </a>
-</div>
-
-<br/>
-
-<div align="center">
-  <sub>⭐ <b>Adarsh Kushwaha</b> · Let's build something great</sub>
-</div>
+- **Components:** small, composable, typed at the boundary. Own state where it's used and keep server state in a cache, not in global stores.
+- **Performance is a feature:** measure first (Lighthouse, bundle analysis), ship less JavaScript, and render on the server when it helps.
+- **Accessible by default:** semantic HTML, keyboard paths and visible focus before visual polish.
+- **Design for failure:** every async view has loading, empty, error and retry states.
+- **Test what's easy to get wrong:** date math, state machines and critical user flows.
